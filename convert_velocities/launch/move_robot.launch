@@ -1,0 +1,7 @@
+<launch>
+    <node name="convert_velo" pkg="convert_velocities" type="convert_vels.py" output="screen">
+    </node>
+
+    <node name="publish_velo" pkg="convert_velocities" type="publish_vels.py" output="screen">
+    </node>
+</launch>
